@@ -13,6 +13,11 @@
 		491727921B0E98A800E2DD92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491727911B0E98A800E2DD92 /* Images.xcassets */; };
 		491727951B0E98A800E2DD92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491727931B0E98A800E2DD92 /* LaunchScreen.xib */; };
 		491727A11B0E98A800E2DD92 /* Beat_XpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491727A01B0E98A800E2DD92 /* Beat_XpressTests.swift */; };
+		49315A551B0E9AFB00FB6632 /* XpressiveAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49315A541B0E9AFB00FB6632 /* XpressiveAudioEngine.swift */; };
+		49315A5A1B0EA4EB00FB6632 /* Bright Crash in Resources */ = {isa = PBXBuildFile; fileRef = 49315A561B0EA4EB00FB6632 /* Bright Crash */; };
+		49315A5B1B0EA4EB00FB6632 /* HiHat in Resources */ = {isa = PBXBuildFile; fileRef = 49315A571B0EA4EB00FB6632 /* HiHat */; };
+		49315A5C1B0EA4EB00FB6632 /* Long Kick in Resources */ = {isa = PBXBuildFile; fileRef = 49315A581B0EA4EB00FB6632 /* Long Kick */; };
+		49315A5D1B0EA4EB00FB6632 /* Snare in Resources */ = {isa = PBXBuildFile; fileRef = 49315A591B0EA4EB00FB6632 /* Snare */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		4917279A1B0E98A800E2DD92 /* Beat XpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beat XpressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4917279F1B0E98A800E2DD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491727A01B0E98A800E2DD92 /* Beat_XpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beat_XpressTests.swift; sourceTree = "<group>"; };
+		49315A541B0E9AFB00FB6632 /* XpressiveAudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XpressiveAudioEngine.swift; sourceTree = "<group>"; };
+		49315A561B0EA4EB00FB6632 /* Bright Crash */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Bright Crash"; sourceTree = "<group>"; };
+		49315A571B0EA4EB00FB6632 /* HiHat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HiHat; sourceTree = "<group>"; };
+		49315A581B0EA4EB00FB6632 /* Long Kick */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Long Kick"; sourceTree = "<group>"; };
+		49315A591B0EA4EB00FB6632 /* Snare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Snare; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,10 @@
 		491727871B0E98A800E2DD92 /* Beat Xpress */ = {
 			isa = PBXGroup;
 			children = (
+				49315A5E1B0EA4F400FB6632 /* Samples */,
 				4917278A1B0E98A800E2DD92 /* AppDelegate.swift */,
 				4917278C1B0E98A800E2DD92 /* ViewController.swift */,
+				49315A541B0E9AFB00FB6632 /* XpressiveAudioEngine.swift */,
 				4917278E1B0E98A800E2DD92 /* Main.storyboard */,
 				491727911B0E98A800E2DD92 /* Images.xcassets */,
 				491727931B0E98A800E2DD92 /* LaunchScreen.xib */,
@@ -110,6 +122,17 @@
 				4917279F1B0E98A800E2DD92 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49315A5E1B0EA4F400FB6632 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				49315A561B0EA4EB00FB6632 /* Bright Crash */,
+				49315A571B0EA4EB00FB6632 /* HiHat */,
+				49315A581B0EA4EB00FB6632 /* Long Kick */,
+				49315A591B0EA4EB00FB6632 /* Snare */,
+			);
+			name = Samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +215,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49315A5B1B0EA4EB00FB6632 /* HiHat in Resources */,
 				491727901B0E98A800E2DD92 /* Main.storyboard in Resources */,
+				49315A5A1B0EA4EB00FB6632 /* Bright Crash in Resources */,
 				491727951B0E98A800E2DD92 /* LaunchScreen.xib in Resources */,
 				491727921B0E98A800E2DD92 /* Images.xcassets in Resources */,
+				49315A5D1B0EA4EB00FB6632 /* Snare in Resources */,
+				49315A5C1B0EA4EB00FB6632 /* Long Kick in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4917278D1B0E98A800E2DD92 /* ViewController.swift in Sources */,
+				49315A551B0E9AFB00FB6632 /* XpressiveAudioEngine.swift in Sources */,
 				4917278B1B0E98A800E2DD92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +439,7 @@
 				491727A61B0E98A800E2DD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491727A71B0E98A800E2DD92 /* Build configuration list for PBXNativeTarget "Beat XpressTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				491727A91B0E98A800E2DD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
