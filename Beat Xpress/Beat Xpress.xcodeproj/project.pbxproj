@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4917278B1B0E98A800E2DD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917278A1B0E98A800E2DD92 /* AppDelegate.swift */; };
-		4917278D1B0E98A800E2DD92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917278C1B0E98A800E2DD92 /* ViewController.swift */; };
 		491727901B0E98A800E2DD92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4917278E1B0E98A800E2DD92 /* Main.storyboard */; };
 		491727921B0E98A800E2DD92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491727911B0E98A800E2DD92 /* Images.xcassets */; };
 		491727951B0E98A800E2DD92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491727931B0E98A800E2DD92 /* LaunchScreen.xib */; };
 		491727A11B0E98A800E2DD92 /* Beat_XpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491727A01B0E98A800E2DD92 /* Beat_XpressTests.swift */; };
-		49315A551B0E9AFB00FB6632 /* XpressiveAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49315A541B0E9AFB00FB6632 /* XpressiveAudioEngine.swift */; };
 		49315A5A1B0EA4EB00FB6632 /* Bright Crash in Resources */ = {isa = PBXBuildFile; fileRef = 49315A561B0EA4EB00FB6632 /* Bright Crash */; };
 		49315A5B1B0EA4EB00FB6632 /* HiHat in Resources */ = {isa = PBXBuildFile; fileRef = 49315A571B0EA4EB00FB6632 /* HiHat */; };
 		49315A5C1B0EA4EB00FB6632 /* Long Kick in Resources */ = {isa = PBXBuildFile; fileRef = 49315A581B0EA4EB00FB6632 /* Long Kick */; };
 		49315A5D1B0EA4EB00FB6632 /* Snare in Resources */ = {isa = PBXBuildFile; fileRef = 49315A591B0EA4EB00FB6632 /* Snare */; };
+		49EF14F81B0FB336002FF372 /* BeatCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EF14F71B0FB336002FF372 /* BeatCollectionViewController.swift */; };
+		49FDE6781B5EE0E8009D34C4 /* SamplerAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE6771B5EE0E8009D34C4 /* SamplerAudioEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,18 @@
 		491727851B0E98A800E2DD92 /* Beat Xpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beat Xpress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491727891B0E98A800E2DD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4917278A1B0E98A800E2DD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4917278C1B0E98A800E2DD92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4917278F1B0E98A800E2DD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491727911B0E98A800E2DD92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		491727941B0E98A800E2DD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4917279A1B0E98A800E2DD92 /* Beat XpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beat XpressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4917279F1B0E98A800E2DD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491727A01B0E98A800E2DD92 /* Beat_XpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beat_XpressTests.swift; sourceTree = "<group>"; };
-		49315A541B0E9AFB00FB6632 /* XpressiveAudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XpressiveAudioEngine.swift; sourceTree = "<group>"; };
 		49315A561B0EA4EB00FB6632 /* Bright Crash */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Bright Crash"; sourceTree = "<group>"; };
 		49315A571B0EA4EB00FB6632 /* HiHat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HiHat; sourceTree = "<group>"; };
 		49315A581B0EA4EB00FB6632 /* Long Kick */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Long Kick"; sourceTree = "<group>"; };
 		49315A591B0EA4EB00FB6632 /* Snare */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Snare; sourceTree = "<group>"; };
+		49EF14F71B0FB336002FF372 /* BeatCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatCollectionViewController.swift; sourceTree = "<group>"; };
+		49FDE6771B5EE0E8009D34C4 /* SamplerAudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplerAudioEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 			children = (
 				49315A5E1B0EA4F400FB6632 /* Samples */,
 				4917278A1B0E98A800E2DD92 /* AppDelegate.swift */,
-				4917278C1B0E98A800E2DD92 /* ViewController.swift */,
-				49315A541B0E9AFB00FB6632 /* XpressiveAudioEngine.swift */,
+				49FDE6771B5EE0E8009D34C4 /* SamplerAudioEngine.swift */,
+				49EF14F71B0FB336002FF372 /* BeatCollectionViewController.swift */,
 				4917278E1B0E98A800E2DD92 /* Main.storyboard */,
 				491727911B0E98A800E2DD92 /* Images.xcassets */,
 				491727931B0E98A800E2DD92 /* LaunchScreen.xib */,
@@ -239,9 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4917278D1B0E98A800E2DD92 /* ViewController.swift in Sources */,
-				49315A551B0E9AFB00FB6632 /* XpressiveAudioEngine.swift in Sources */,
+				49EF14F81B0FB336002FF372 /* BeatCollectionViewController.swift in Sources */,
 				4917278B1B0E98A800E2DD92 /* AppDelegate.swift in Sources */,
+				49FDE6781B5EE0E8009D34C4 /* SamplerAudioEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -358,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
